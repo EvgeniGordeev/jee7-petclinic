@@ -25,7 +25,7 @@ public class OwnerDaoImpl implements OwnerDao {
 
     private static Logger log = Logger.getLogger(OwnerDaoImpl.class.getName());
 
-    @PersistenceContext(unitName="javaee7petclinic")
+    @PersistenceContext(unitName="jee7-petclinic")
     private EntityManager entityManager;
 
     @Override

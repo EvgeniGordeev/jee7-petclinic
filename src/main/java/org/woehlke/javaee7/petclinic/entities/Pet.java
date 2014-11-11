@@ -19,7 +19,7 @@ import java.util.*;
 public class Pet implements Comparable<Pet> {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotEmpty

@@ -19,7 +19,7 @@ public class VisitDaoImpl implements VisitDao {
 
     private static Logger log = Logger.getLogger(VisitDaoImpl.class.getName());
 
-    @PersistenceContext(unitName="javaee7petclinic")
+    @PersistenceContext(unitName="jee7-petclinic")
     private EntityManager entityManager;
 
     @Override
